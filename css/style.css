@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    
+    
+}
+nav{
+    background-color: black;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    
+}
+nav a:hover{
+    background-color: white;
+    color: green;
+}
+/* about */
+img{
+    width: 100%;
+}
+.home2{
+text-align: center;
+}
+ #text{
+    margin: 50px 20px;
+ }   
+#btn{
+    text-decoration: none;
+    font-size: 40px;
+    color: orange;
+}
+ #text h1{
+    color:deepskyblue;
+ }
+.section2{
+width: 100%;
+padding: 100px;
+}
+.container{
+ width: 45%;
+ margin: 0 auto;
+ display: flex;
+ /* align-items: center; */
+ justify-content: space-between;
+ padding: 50px 0;
+
+}
+   .text1{
+   margin-right: 50px;
+   } 
+ .text2{
+  margin-left:50px ;
+ }
+ .container h1{
+    color: deepskyblue;
+ }
+ .text2 i{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border-radius:20px;
+}
+.services h2, p{
+    text-align: center;
+    margin: 20px 20px;
+    padding: 0 30px;
+}
+.services h2{
+    color: deepskyblue;
+} 
+ 
+
+.section4img{
+    width: 100%;
+}
+
+ .section4 .services2{
+    width: 20%;
+    padding: 0 2%;
+    float: left;
+    
+ } 
+ .section4 .services2 h2{
+    color: deepskyblue;
+ }
+ .section3 {
+    background-color: rgb(134, 129, 129);
+    }
+    .section3 p{
+        color: white;
+    }
+.section4 {
+    background-color: rgb(134, 129, 129);
+}
+
+
+img{
+    width: 100%;
+}
+#bg-img{
+   background-image:url(../images/woman-1851464_1280.jpg);
+    height: 200px;
+    background-repeat: none;
+    background-size: cover;
+    background-position:center ;
+    position:relative;
+} 
+
+#bg-img::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right:0 ;
+    left: 0;
+    background-color: black;
+    opacity: 0.6;
+}
+  #bg-content{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    right: 40%;
+  }
+
+#about{
+    text-align: right;
+    color: white;
+}
+
+  .sectiona{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }  
+ .sectiona h2{
+    margin-right: 15px;
+ }
+.sectiona p{
+    margin-right: 15px;
+}
+.sectionb{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+.sectionc{
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media(max-width: 768px){
+ .services2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+ }
+}
+@media(max-width:768px){
+   .container{
+    display: flex;
+    flex-wrap: wrap;
+   } 
+    
+    
+}
